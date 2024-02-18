@@ -56,10 +56,10 @@ export default function App() {
 
   return (
     <div className="App">
-      <div>
+      <div className="formDiv">
         <Form handleSubmit={handleSubmit} />
       </div>
-      <div>
+      <div className="CVDiv">
         <DisplayedCV generalInfo={generalInfo} education={education} experience={experience}/>
       </div>
     </div>

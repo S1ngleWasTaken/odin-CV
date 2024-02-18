@@ -53,3 +53,24 @@ button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
+
+.App{
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+}
+
+.App:nth-child(1){
+  grid-column-start: 0;
+  grid-column-end: 1;
+}
+.App:nth-child(2){
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.form{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
